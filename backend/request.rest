@@ -1,0 +1,28 @@
+GET  http://localhost:5000/users
+
+###
+GET  http://localhost:5000/users/6372af96c232b2dd411c65df
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama": "Widodo",
+    "NIM": "119140156",
+    "prodi": "Teknik Informatika"
+}
+
+###
+PUT  http://localhost:5000/users/6372af96c232b2dd411c65df
+Content-Type: application/json
+
+{
+    "nama": "Akbar",
+    "NIM": "119140151",
+    "prodi": "Teknik Sipil"
+}
+
+###
+DELETE   http://localhost:5000/users/6372af7cc232b2dd411c65dc
